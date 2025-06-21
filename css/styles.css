@@ -10,7 +10,11 @@ body {
 
 h1 {
     font-family: "Oswald", sans-serif;
-    font-size: 30px;
+    font-size: 32px;
+}
+h2 {
+    font-family: "Oswald", sans-serif;
+    font-size: 26px;
 }
 
 .header {
@@ -151,9 +155,39 @@ h1 {
     padding: 10px;
 }
 
+#menu {
+    margin-top: 100px;
+}
+#menu h2 {
+    text-align: center;
+    margin-bottom: 25px;
+}
 
-
-
+#menu h3 {
+    font-size: 26px;
+    text-align: left;
+    padding-left: 20px;
+    color: #006EB7;
+    width: fit-content;
+}
+.menu-item {
+    margin: 15px auto;
+    background-color: white;
+    color: black;
+    padding: 15px;
+    max-width: 600px;
+    border-radius: 10px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    text-align: left;
+}
+.menu-item h4 {
+    margin-bottom: 8px;
+    font-size: 20px;
+    color: #006EB7;
+}
+.menu-item p {
+    margin: 4px 0px;
+}
 
 
 
