@@ -10,3 +10,44 @@ body {
 h1 {
     font-family: "Oswald", sans-serif;
 }
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #006EB7;
+    padding: 0 20px;
+}
+.header img {
+    width: 120px;
+    border-radius: 10px;
+}
+.header nav {
+    flex-grow: 1;
+    display: flex;
+    justify-content: center;
+}
+.header ul {
+    display: flex;
+    flex-direction: row;
+}
+.header li {
+    margin: 10px;
+    padding: 10px;
+    list-style: none;
+}
+.header a {
+    padding: 10px;
+    text-decoration: none;
+    color: white;
+    font-family: "Oswald", sans-serif;
+    font-size: 24px;
+}
+.header a:hover {
+    border-radius: 20px;
+    background-color: #0085de;
+}
+.active-menu {
+    background-color: #0085de;
+    border-radius: 20px;
+}
