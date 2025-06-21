@@ -5,6 +5,7 @@
 
 body {
     font-family: "Open sans", sans-serif;
+    background-color: azure;
 }
 
 h1 {
@@ -111,6 +112,63 @@ h1 {
     width: 500px;
     border-radius: 10px;
 }
+
+/* MENYSIDAN */
+#menu-main h1 {
+    text-align: center;
+    margin-top: 20px;
+}
+#menu-pics {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 50px;
+}
+.menu-option {
+    position: relative;
+    display: inline-block;
+    cursor: pointer;
+}
+
+.menu-option img {
+    width: 400px;
+    border-radius: 20px;
+}
+
+.menu-option:hover img {
+    opacity: 0.8;
+}
+
+.menu-text {
+    position: absolute;
+    bottom: 20px;
+    left: 0;
+    right: 0;
+    text-align: center;
+    font-size: 24px;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.6);
+    padding: 10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /* Footer */ 
 .footer {
