@@ -12,6 +12,8 @@
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Oswald:wght@200..700&display=swap" rel="stylesheet">
 
 </head>
+<body>
+
 <header class="header">
     <a href="index.html">
     <img src="images/giffers-logo-2-2.png" alt="GIFFERS logga.">
@@ -25,52 +27,55 @@
         </ul>
     </nav>
 </header>
-<body>
-    <main>
-        <section id="booking-main">
-        <h1> BOKA BORD </h1>
 
-        <form id="bookingForm">
-            <label for="fullName">Namn: </label>
-            <input type="text" id="fullName" required />
-          
-            <label for="phone">Telefonnummer: </label>
-            <input type="tel" id="phone" required />
-          
-            <label for="date">Datum: </label>
-            <input type="date" id="date" required />
-          
-            <label for="time">Tid: </label>
-            <input type="time" id="time" required />
-          
-            <label for="guests">Antal gäster: </label>
-            <input type="number" id="guests" min="1" max="6" placeholder="0" required />
-          
-            <label for="message">Meddelande (valfritt): </label>
-            <textarea id="message"></textarea>
-          
-            <button type="submit">Boka </button>
-          </form>
-          
-          <div id="bookingResponse"></div>
-        </section>
-        <footer class="footer">
-            <div class="footer-links">
-                <ul>
-                    <li><a href="menu.html"> MENY </a></li>
-                    <li><a href="book.html"> BOKA BORD </a></li>
-                    <li><a href="about.html"> OM OSS </a></li>
-                </ul>
-            </div>
-            <div class="footer-contact">
-                <p><strong> Kontakta oss </strong></p>
-                <br>
-                <p><strong> Epost: </strong> giffers@gmail.com </p>
-                <br>
-                <p><strong> Telefon: </strong> 070-123 12 12</p>
-            </div>
-        </footer>
-    </main>
+<main>
+    <section id="booking-main">
+    <h1> BOKA BORD </h1>
+
+    <form id="bookingForm">
+        <label for="fullName">Namn: </label>
+        <input type="text" id="fullName" required >
+        
+        <label for="phone">Telefonnummer: </label>
+        <input type="tel" id="phone" required >
+        
+        <label for="date">Datum: </label>
+        <input type="date" id="date" required >
+        
+        <label for="time">Tid: </label>
+        <input type="time" id="time" required >
+        
+        <label for="guests">Antal gäster: </label>
+        <input type="number" id="guests" min="1" max="6" placeholder="0" required >
+        
+        <label for="message">Meddelande (valfritt): </label>
+        <textarea id="message"></textarea>
+        
+        <button type="submit">Boka </button>
+        </form>
+        
+        <div id="bookingResponse"></div>
+    </section>
+
+
+    <footer class="footer">
+        <div class="footer-links">
+            <ul>
+                <li><a href="menu.html"> MENY </a></li>
+                <li><a href="book.html"> BOKA BORD </a></li>
+                <li><a href="about.html"> OM OSS </a></li>
+            </ul>
+        </div>
+        <div class="footer-contact">
+            <p><strong> Kontakta oss </strong></p>
+            <br>
+            <p><strong> Epost: </strong> giffers@gmail.com </p>
+            <br>
+            <p><strong> Telefon: </strong> 070-123 12 12</p>
+        </div>
+    </footer>
+
+</main>
 
     <script src="js/book.js"></script>
 </body>

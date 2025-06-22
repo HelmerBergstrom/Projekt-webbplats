@@ -12,6 +12,8 @@
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Oswald:wght@200..700&display=swap" rel="stylesheet">
 
 </head>
+<body>
+
 <header class="header">
     <a href="index.html">
     <img src="images/giffers-logo-2-2.png" alt="GIFFERS logga.">
@@ -25,44 +27,60 @@
         </ul>
     </nav>
 </header>
-<body>
-    <main id="menu-main">
-        <h1> MENY </h1>
-        <!-- Dryck eller mat kan man klicka på! -->
-        <div id="menu-pics">
-            <a href="#food">
-                <div class="menu-option">
-                    <img src="images/steak.jpg" alt="Kött, pommes och sås.">
-                    <div class="menu-text">Mat</div>
-                </div>
-            </a>
-            <a href="#drinks">
-                <div class="menu-option">
-                    <img src="images/beer.jpg" alt="Öltapp.">
-                    <div class="menu-text">Dryck</div>
-                </div>
-            </a>
+
+<main id="menu-main">
+    <h1> MENY </h1>
+    <!-- Dryck eller mat kan man klicka på! -->
+    <div id="menu-pics">
+        <a href="#food">
+            <div class="menu-option">
+                <img src="images/steak.jpg" alt="Kött, pommes och sås.">
+                <div class="menu-text">Mat</div>
+            </div>
+        </a>
+        <a href="#drinks">
+            <div class="menu-option">
+                <img src="images/beer.jpg" alt="Öltapp.">
+                <div class="menu-text">Dryck</div>
+            </div>
+        </a>
+    </div>
+
+    <section id="menu">
+        <div id="food">
+
+            <h2> Förrätter </h2>
+            <div id="starter"></div>
+<br><br>
+            <h2> Varmrätter </h2>
+            <div id="main"></div>
+<br><br>
+            <h2> Efterrätter </h2>
+            <div id="dessert"></div>
         </div>
-
-        <section id="menu">
-            <div id="food">
-
-                <h2> Förrätter </h2>
-                <div id="starter"></div>
-<br><br>
-                <h2> Varmrätter </h2>
-                <div id="main"></div>
-<br><br>
-                <h2> Efterrätter </h2>
-                <div id="dessert"></div>
-            </div>
-            <div id="drinks">
-                <br><br>
-                <h2>Dryck</h2>
-                <div id="drink"></div>
-            </div>
-        </section>
-    </main>
+        <div id="drinks">
+            <br><br>
+            <h2>Dryck</h2>
+            <div id="drink"></div>
+        </div>
+    </section>
+    <footer class="footer">
+        <div class="footer-links">
+            <ul>
+                <li><a href="menu.html"> MENY </a></li>
+                <li><a href="book.html"> BOKA BORD </a></li>
+                <li><a href="about.html"> OM OSS </a></li>
+            </ul>
+        </div>
+        <div class="footer-contact">
+            <p><strong> Kontakta oss </strong></p>
+            <br>
+            <p><strong> Epost: </strong> giffers@gmail.com </p>
+            <br>
+            <p><strong> Telefon: </strong> 070-123 12 12</p>
+        </div>
+    </footer>
+</main>
 
     <script src="js/menu.js"></script>
 </body>

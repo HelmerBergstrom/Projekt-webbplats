@@ -40,11 +40,17 @@ bookingForm.addEventListener("submit", async (e) => {
             bookingResponse.textContent = result.message || "Något gick fel med bokningen!";
             bookingResponse.style.color = "red";
             bookingResponse.style.backgroundColor = "aliceblue";
+            bookingResponse.style.padding = "5px";
+            bookingResponse.style.maxWidth = "300px";
+            bookingResponse.style.margin = "20px auto";
             bookingResponse.scrollIntoView();
         } else {
             bookingResponse.textContent = "Bokning skapad: " + fullName + " - " + date + " - " + time;
             bookingResponse.style.color = "green";
             bookingResponse.style.backgroundColor = "aliceblue";
+            bookingResponse.style.padding = "5px";
+            bookingResponse.style.maxWidth = "300px";
+            bookingResponse.style.margin = "20px auto";
             bookingForm.reset();
         }
     } catch(err) {
