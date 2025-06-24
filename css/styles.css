@@ -83,6 +83,9 @@ h2 {
     background-color: rgba(0, 0, 0, 0.5); /* mörkt överlägg */
     z-index: -1;
 }
+#heading h1 {
+    font-size: 38px;
+}
 
 #firstPageButtons {
     margin-top: 50px;
@@ -93,7 +96,7 @@ h2 {
 }
 #firstPageButtons a {
     background-color: #FFD025;
-    padding: 10px;
+    padding: 15px;
     margin: 0px 20px;
     color: black;
     text-decoration: none;
@@ -288,7 +291,20 @@ h2 {
 
 /* OM OSS-sidan */
 
-
+#introtext, #about h1 {
+    text-align: center;
+    padding: 20px;
+}
+#sponsor {
+    font-size: 20px;
+    text-transform: uppercase;
+    color: #006EB7;
+    font-weight: bold;
+}
+#gif-logo img {
+    width: 250px;
+    border-radius: 100px;
+}
 #about,
 #about2,
 #about3 {
@@ -402,11 +418,12 @@ h2 {
     }
     .mobile-menu.visible {
         display: flex;
+        background-color: #FFD025;
     }
     .mobile-menu li {
         list-style: none;
         text-align: center;
-        margin: 10px;
+        margin: 20px;
     }
     .mobile-menu a {
         font-family: "Oswald", sans-serif;
@@ -421,14 +438,27 @@ h2 {
         text-decoration: underline;
     }
     .active-mobile-menu {
-        background-color: #FFD025;
+        background-color: #006EB7;
         border-radius: 10px;
+    }
+    .active-mobile-menu a {
+        color: white;
+    }
+    .active-mobile-menu a:hover {
+        text-decoration: none;
+        cursor: default;
     }
     .header img {
         width: 100px;
     }
 
     /* STARTSIDA */ 
+    #heading h1 {
+        font-size: 32px;
+    }
+    #firstPageButtons a {
+        padding: 10px;
+    }
     #nextHomeGame {
         text-align: center;
         margin: 40px;
