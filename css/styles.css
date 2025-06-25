@@ -337,6 +337,58 @@ h2 {
     border: none;
 }
 
+/* Kontaktformulär */
+
+#contactForm {
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    max-width: 400px;
+    width: 100%;
+    margin: auto;
+    background-color: #0085de;
+    border-radius: 10px;
+    gap: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+#contactForm label {
+    font-weight: bold;
+    color: white;
+}
+
+#contactForm input,
+#contactForm textarea {
+    border: none;
+    border-radius: 10px;
+    padding: 7px;
+    font-size: 16px;
+    width: 98%;
+}
+
+#contactForm button {
+    width: 100%;
+    margin-top: 40px;
+    font-size: 20px;
+    border: none;
+    border-radius: 10px;
+    background-color: #FFD025;
+    color: black;
+    font-weight: bold;
+    padding: 15px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+#contactForm button:hover {
+    background-color: green;
+    color: white;
+}
+#contact-section {
+    text-align: center;
+}
+
 /* Footer */ 
 .footer {
     background-color: #006EB7;
@@ -346,11 +398,11 @@ h2 {
     justify-content: center;
     padding: 20px 0px;
 }
-.footer-links {
-    margin: 0px 100px;
-}
 .footer-links ul {
     list-style: none;
+}
+.footer-links {
+    padding: 0px 100px;
 }
 .footer-links li {
     padding: 10px;
@@ -364,9 +416,18 @@ h2 {
     background-color: #0085de;
     border-radius: 10px;
 }
-.footer-contact {
+.socials {
     color: white;
-    padding: 10px;
+    font-weight: bold;
+}
+.socials a {
+    color: white;
+    font-weight: bold;
+    padding: 10px 0px;
+}
+.socials a:hover {
+    background-color: #0085de;
+    border-radius: 10px;
 }
 
 /* RESPONSIV MENY */
@@ -495,6 +556,6 @@ h2 {
 
     /* FOOTER */
     .footer-links {
-        margin: 0px 20px;
+        padding: 0px;
     }
 }
