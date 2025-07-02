@@ -307,7 +307,7 @@ h2 {
 }
 #about,
 #about2,
-#about3 {
+.about3 {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -317,15 +317,13 @@ h2 {
 }
 
 #about h2,
-#about2 h2,
-#about3 h2 {
+#about2 h2 {
     text-align: center;
     margin-top: 20px;
 }
 
 #about p,
-#about2 p,
-#about3 p {
+#about2 p  {
     max-width: 600px;
     margin: auto;
 }
@@ -554,8 +552,61 @@ h2 {
         text-align: left;
     }
 
+    /* OM GIFFERS-sidan */
+    #introtext, #about h1 {
+        text-align: center;
+        padding: 20px;
+    }
+    #sponsor {
+        font-size: 20px;
+        text-transform: uppercase;
+        color: #006EB7;
+        font-weight: bold;
+    }
+    #gif-logo img {
+        width: 250px;
+        border-radius: 100px;
+    }
+    #about,
+    #about2,
+    .about3 {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: left;
+        max-width: 450px;
+        margin: 25px auto 0 auto;
+    }
+    
+    #about h2,
+    #about2 h2,
+    .about3 h2 {
+        text-align: center;
+        margin-top: 20px;
+    }
+    
+    #about p,
+    #about2 p,
+    .about3 p {
+        max-width: 450px;
+        margin: auto;
+    }
+    
+    .picture img {
+        width: 350px;
+    }
+
     /* FOOTER */
     .footer-links {
         padding: 0px 20px;
+    }
+
+    #contactForm {
+        max-width: 350px;
+    }
+    #contact-section p {
+        max-width: 425px;
+        width: 100%;
+        margin: auto;
     }
 }
